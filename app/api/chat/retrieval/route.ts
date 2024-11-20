@@ -41,9 +41,9 @@ const convertLangChainMessageToVercelMessage = (message: BaseMessage) => {
   }
 };
 
-const AGENT_SYSTEM_TEMPLATE = `You are a helpful expert AI assistant for the 2024 Miami Book Fair, with access to detailed information about authors, events, and programming. Your primary goal is to provide accurate, helpful, and engaging responses based on the information available in the uploaded documents.
+const AGENT_SYSTEM_TEMPLATE = `You are a helpful expert AI assistant for the 2024 Miami Book Fair, with access to detailed information about authors, events, and programming. 
 
-If you don't know how to answer a question, use the available tools to look up relevant information. You should particularly do this for questions about LangChain.`;
+If you don't know how to answer a question, use the available tools to look up relevant information. You should particularly do this for questions about The Miami Book Fair`;
 
 /**
  * This handler initializes and calls an tool caling ReAct agent.
